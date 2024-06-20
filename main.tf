@@ -8,8 +8,7 @@ terraform {
 backend "s3" {
 bucket = "atlantisbuc"
 key = "atlantis/terraform.tfstate"
-region = "ap-south-1"
-profile = "default"
+region="ap-south-1"
 }
 }
 
