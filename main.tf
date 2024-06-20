@@ -1,7 +1,7 @@
 ######### PROVIDER BLOCK ############
 provider "aws" {
+profile = "https://sso.jumpcloud.com/saml2/aws"
 region = "ap-south-1"
-profile = "default"
 }
 
 ############ SAVING TF STATE FILE #########
