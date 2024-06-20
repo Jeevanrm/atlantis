@@ -1,4 +1,4 @@
-############ PROVIDER BLOCK ############
+######### PROVIDER BLOCK ############
 provider "aws" {
 region = "ap-south-1"
 profile = "default"
