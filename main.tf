@@ -14,7 +14,7 @@ profile = "default"
 }
 }
 
-################# EC2 INSTANCE CREATION #########
+## EC2 INSTANCE CREATION #########
 data "aws_ami" "ubuntu" {
 most_recent = true
 
